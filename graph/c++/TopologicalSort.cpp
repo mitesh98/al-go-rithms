@@ -41,7 +41,7 @@ int main()
   }
   for (int i = 1; i <= v; i++)
   {
-    cout << "adjacencylist[" << i << "%d] :";
+    cout << "Adjacency List[" << i << "%d] :";
     for (int j : adjacencylist[i])
     {
       cout << j << "  ";
